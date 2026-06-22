@@ -51,6 +51,8 @@ public class payload {
 }
 	public static String AddBook()
 	{
+		
+		//storing in a variable and returning that variable
 		String payload= "{\r\n"
 		+ "\r\n"
 		+ "\"name\":\"Learn Appium Automation with Java\",\r\n"
