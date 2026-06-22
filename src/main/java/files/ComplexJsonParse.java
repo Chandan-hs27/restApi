@@ -37,10 +37,16 @@ public class ComplexJsonParse {
         		int copy=js.get("courses["+i+"].copies");
         		System.out.println(copy);
         	 break;
-        	}
-        }
+        	
+        }}}
 
         //Verify if Sum of all Course prices matches with Purchase Amount
+        //refer SumValidation class
+        public void sumOfCourse() {
+    		int sum=0;
+    		JsonPath js=new JsonPath(payload.CoursePrice());
+    		int count=js.getInt("courses.size()");
+    		for(int i=0;i<count;i++) {}
 
 
 }}
