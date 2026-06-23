@@ -27,6 +27,10 @@ public class SendParameterToPayload {
 	public void addBook() 
 	{System.out.println("branch test"); }
 	
+	@Test
+	public void addBook1() 
+	{System.out.println("branch test add"); }
+	
    @DataProvider(name="BooksData")
    public Object[][] getData()
    {
