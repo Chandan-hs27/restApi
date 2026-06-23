@@ -23,13 +23,19 @@ public class SendParameterToPayload {
 		System.out.println(id);
 	}
 	
-@DataProvider(name="BooksData")
-public Object[][] getData()
-{
+	@Test
+	public void addBook() 
+	{System.out.println("branch test"); }
+	
+   @DataProvider(name="BooksData")
+   public Object[][] getData()
+   {
 	//Array=collection of elements
 	//Multidimentional Array=collection of Array
 	return new Object[] [] {{"chshsn","9844"},{"nhshsn","9513"},{"phshsn","8144"}};
-}
+   }
+
+
 	
 }
 
